@@ -7,9 +7,9 @@ const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
 
 function changeImageMode(mode) {
-    image1.src = `../img/undraw_proud_coder_${mode}.svg`;
-    image2.src = `../img/undraw_feeling_proud_${mode}.svg`;
-    image3.src = `../img/undraw_conceptual_idea_${mode}.svg`;
+    image1.src = `img/undraw_proud_coder_${mode}.svg`;
+    image2.src = `img/undraw_feeling_proud_${mode}.svg`;
+    image3.src = `img/undraw_conceptual_idea_${mode}.svg`;
 }
 
 function darkMode() {
